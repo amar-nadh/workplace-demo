@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]" parallel="methods">
+  <test name="Testing parameterization(failed)" parallel="methods">
+    <parameter name="password" value="TestPassword"/>
+    <parameter name="browser" value="FireFox"/>
+    <parameter name="username" value="Testuser"/>
+    <classes>
+      <class name="testNgExamples.LoggingClass">
+        <methods>
+          <include name="divisibleByZero"/>
+        </methods>
+      </class> <!-- testNgExamples.LoggingClass -->
+    </classes>
+  </test> <!-- Testing parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

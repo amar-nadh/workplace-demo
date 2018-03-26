@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="suite.Flipkart.LMSExample">
+        <methods>
+          <include name="Initialisation"/>
+          <include name="Teardown"/>
+          <include name="ApplyLeaveForTwoDays"/>
+        </methods>
+      </class> <!-- suite.Flipkart.LMSExample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

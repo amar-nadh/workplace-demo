@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameterization Test Suite" parallel = "methods" thread-count="2">
+	
+	<test name="Testing parameterization" preserve-order ="true">
+	
+		<parameter name="browser" value="FireFox" />
+		<parameter name="username" value="Testuser"/>
+		<parameter name="password" value="TestPassword"/>
+		
+		<classes>
+			<class name="testNgExamples.TestParameters"/>
+			<class name="testNgExamples.LoggingClass"/>
+		</classes>
+		
+	</test>
+	
+</suite>

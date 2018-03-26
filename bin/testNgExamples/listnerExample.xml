@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Log Suite Example" verbose="1">
+
+<listeners>
+		<listener class-name="testNgExamples.ListenerClass" />
+</listeners>
+
+<test name="TestNG logs sample" preserve-order="true">
+		<classes>
+			<class name="testNgExamples.LoggingClass">
+				<methods>
+					<include name="methodAdding" />
+					<include name="divisibleByZero" />
+					<exclude name="methodskip" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31462" started-at="2018-03-22T11:40:43Z" finished-at="2018-03-22T11:41:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31462" started-at="2018-03-22T11:40:43Z" finished-at="2018-03-22T11:41:14Z">
+      <class name="suite.Flipkart.LMSExample">
+        <test-method status="PASS" signature="Initialisation()[pri:0, instance:suite.Flipkart.LMSExample@26be92ad]" name="Initialisation" is-config="true" duration-ms="11029" started-at="2018-03-22T17:10:43Z" finished-at="2018-03-22T17:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialisation -->
+        <test-method status="PASS" signature="LaunchLMS()[pri:1, instance:suite.Flipkart.LMSExample@26be92ad]" name="LaunchLMS" duration-ms="7285" started-at="2018-03-22T17:10:54Z" finished-at="2018-03-22T17:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchLMS -->
+        <test-method status="PASS" signature="ApplyLeaveForTwoDays()[pri:2, instance:suite.Flipkart.LMSExample@26be92ad]" name="ApplyLeaveForTwoDays" duration-ms="8776" started-at="2018-03-22T17:11:01Z" finished-at="2018-03-22T17:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyLeaveForTwoDays -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:suite.Flipkart.LMSExample@26be92ad]" name="Teardown" is-config="true" duration-ms="4344" started-at="2018-03-22T17:11:10Z" finished-at="2018-03-22T17:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- suite.Flipkart.LMSExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
